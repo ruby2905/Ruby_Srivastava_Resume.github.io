@@ -1,0 +1,39 @@
+body{
+	background-color: #EBDEDE;
+	margin: 0px;
+	font-family: Cambria;
+}
+
+h3{
+	/*text-decoration: underline;*/
+}
+
+.container1{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+	background-color: #FFD34E;
+	height: 100px;
+}
+
+.container1>div{
+	font-size: 2em;
+}
+
+
+.container2{
+	display: flex;
+	margin: 10px;
+	flex-direction: column;
+}
+
+.container2>div{
+	background-color: lightblue;
+	margin: 10px;
+	padding: 20px;
+	border-radius: 20px 50px;
+	box-shadow: 10px 10px 5px #5981C6;
+
+}
